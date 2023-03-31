@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+Question 1: List five significant features of React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    - Components
+    - One-way Data Binding
+    - Virtual DOM
+    - Simplicity
+    - Performance
 
-## Available Scripts
 
-In the project directory, you can run:
+Question 2: List five major advantages of React
 
-### `npm start`
+    - Easy to Learn and Use
+    - Reusable Components
+    - Performance Enhancement
+    - Scope for Testing the Codes
+    - SEO Friendly
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Question 3: What is the name of the Software Engineer that created React?
 
-### `npm test`
+    - Jordan Walke
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Also, which company owns React?
 
-### `npm run build`
+    - Meta
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Question 4: What are the notable differences between HTML & JSX? Give at least 3 of them
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    - in JSX, you must return a single parent element, or it won't compile. In HTML, you don’t have to return a single parent element.
+    - You can implement JS directly in JSX by putting the JavaScript in curly braces {...}. In HTML, you need a script tag or an external JavaScript file to implement JavaScript.
+    - To define class names and for attributes in JSX, you don't use "class" or "for", both are reserved keywords in JavaScript.
+    - You need to write all HTML attributes and event references in camelCase while writing JSX. 
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Question 5: Why can’t browsers read JSX?
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    - This is because JSX is not valid JavaScript, browsers can't read it directly; they do not know what to do with it, so we need a transpiler to translate it to React.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
